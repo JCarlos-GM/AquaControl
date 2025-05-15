@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AquaControl</string>
+    <string name="title_tinaco">Tinaco</string>
+    <string name="title_cisterna">Cisterna</string>
+    <string name="title_calidad">Calidad</string>
+    <string name="title_configuraciones">Configuraciones</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tinaco">
+
+    <fragment
+        android:id="@+id/navigation_tinaco"
+        android:name="com.tecnm.aquacontrol.ui.home.HomeFragment"
+        android:label="@string/title_tinaco"
+        tools:layout="@layout/fragment_tinaco" />
+
+    <fragment
+        android:id="@+id/navigation_cisterna"
+        android:name="com.tecnm.aquacontrol.ui.dashboard.DashboardFragment"
+        android:label="@string/title_cisterna"
+        tools:layout="@layout/fragment_cisterna" />
+
+    <fragment
+        android:id="@+id/navigation_calidad"
+        android:name="com.tecnm.aquacontrol.ui.calidad.CalidadFragment"
+        android:label="@string/title_calidad"
+        tools:layout="@layout/fragment_calidad" />
+
+    <fragment
+        android:id="@+id/navigation_configuraciones"
+        android:name="com.tecnm.aquacontrol.ui.notifications.NotificationsFragment"
+        android:label="@string/title_configuraciones"
+        tools:layout="@layout/fragment_configuraciones" />
+</navigation>
